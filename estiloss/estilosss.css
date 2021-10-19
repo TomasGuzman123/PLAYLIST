@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+body{
+    background-image: url('../fotito/negro3.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.contenedor-fondo{
+    background-image:url('https://d2ihb3jisuaxvo.cloudfront.net/wp-content/uploads/2020/07/02144134/trap-argentino-1024x585.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+    position: relative;
+    height: 300px;
+    
+}
+.texto-titulo{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    color:rgb(238, 113, 232);
+    border-radius: 60px ;
+    margin: 10px;
+    background-color: rgba(172, 106, 167, 0.938);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 3px;
+}
+h2{
+    color:darkkhaki;
+}
+.imagen-album{
+    height: 100px;
+    width: 100px;
+}
+table{
+    font-size: 2.0em ;
+    text-align: center;
+    margin: 0 auto;
+    border: 5px solid rgb(109, 109, 194);
+    background-color: rgba(172, 165, 179, 0.733);
+    border-collapse: collapse;
+}
+table td{
+    border:5px solid rgb(109, 109, 194)
+}
+tr:hover{
+    background-color: rgba(109, 161, 148, 0.664);
+
+}
+ul{
+    text-align: center;
+
+}
+p{
+    text-align: center;
+    color: cornsilk;
+    border-collapse: collapse;
+}
+footer {
+    background-color: rgb(161, 148, 146);
+}
